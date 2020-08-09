@@ -8,4 +8,3 @@ def detectCapitalUse( word):
 			return True
 		else:
 			return False
-print(detectCapitalUse('FLAG'))
