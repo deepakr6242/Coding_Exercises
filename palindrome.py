@@ -15,11 +15,9 @@ import string
 
 def isPalindrome(s):
         for i in s:
-			if i in string.punctuation:
-				s = s.replace(i,'')
+		if i in string.punctuation:
+			s = s.replace(i,'')
         sub = s.replace(' ','').lower()
         return sub[::-1]==sub[:]
-
-print(isPalindrome("A man, a plan, a canal: Panama"))
 
 
